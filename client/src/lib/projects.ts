@@ -16,6 +16,32 @@ export type Project = {
 const storage = "/assets/";
 
 export const projects: Project[] = [
+  {
+    slug: "ayyan-khan-portfolio",
+    title: "Ayyan Khan Portfolio",
+    type: "GRAPHIC DESIGNER CLIENT PORTFOLIO",
+    year: "2026",
+    category: "Vercel",
+    description: "A client portfolio showcasing a graphic designer's work across branding, logos, social media, packaging, print, and UI/UX design.",
+    longDescription: "I built this portfolio for graphic designer Ayyan Khan to give his creative work a distinctive online home. Bold typography, lime accents, and an editorial layout lead visitors through logo collections, brand identity presentations, social campaigns, packaging, print, and UI/UX projects. Clear section navigation and direct contact links make it easy to explore his work and start a project.",
+    image: `${storage}ayyan-khan-home.png`,
+    gallery: [`${storage}ayyan-khan-home.png`, `${storage}ayyan-khan-work.png`],
+    tags: ["Client Project", "Portfolio", "Visual Storytelling"],
+    liveUrl: "https://ayyan-khan-portfolio.vercel.app/",
+  },
+  {
+    slug: "boost-vertex",
+    title: "Boost Vertex",
+    type: "FULL STACK MARKETING AGENCY",
+    year: "2026",
+    category: "Vercel",
+    description: "A full stack marketing agency website with an admin dashboard, service pages, case studies, and clear paths for client inquiries.",
+    longDescription: "I built Boost Vertex as a full stack website for a performance marketing agency, pairing a public-facing experience with an admin dashboard. The site presents Meta Ads, lead generation, Google Ads, YouTube Ads, SEO, and web development through dedicated service pages, supported by case studies, insights, and contact flows. A bold dark-and-lime visual system ties the agency's offering together and guides prospective clients toward an inquiry or consultation.",
+    image: `${storage}boost-vertex-home.png`,
+    gallery: [`${storage}boost-vertex-home.png`, `${storage}boost-vertex-services.png`],
+    tags: ["Full Stack", "Admin Dashboard", "Marketing Agency"],
+    liveUrl: "https://boost-vertex.vercel.app/",
+  },
   { slug: "skyelite", title: "SkyElite", type: "PREMIUM LANDING PAGE", year: "2026", category: "Vercel", description: "A quiet-luxury private aviation experience with fleet storytelling, rates, destinations, and concierge conversion paths.", longDescription: "SkyElite turns private aviation into a calm, editorial product story. I shaped the experience around premium imagery, strong typographic pacing, aircraft specifications, transparent pricing tiers, destination discovery, and a direct concierge CTA.", image: `${storage}skyelite.webp`, gallery: [`${storage}skyelite.webp`, `${storage}skyelite.webp`, `${storage}skyelite.webp`], tags: ["React", "Editorial UI", "Responsive"], liveUrl: "https://skyelite-landing-page-rosy.vercel.app/" },
   { slug: "luxe-mart", title: "Luxe Mart", type: "COMMERCE EXPERIENCE", year: "2026", category: "Vercel", description: "A luxury storefront built around collection discovery, product rhythm, lookbook energy, and confident commerce controls.", longDescription: "Luxe Mart is an editorial commerce concept for modern luxury retail. The interface moves from seasonal campaign storytelling into curated categories, product cards, wishlist/cart moments, and a visual lookbook without losing the sense of restraint.", image: `${storage}luxe-mart.webp`, gallery: [`${storage}luxe-mart.webp`, `${storage}luxe-mart.webp`, `${storage}luxe-mart.webp`], tags: ["React", "Commerce", "Motion"], liveUrl: "https://luxe-mart-steel.vercel.app/" },
   { slug: "resume-ai", title: "ResumeAI Pro", type: "AI PRODUCT SITE", year: "2026", category: "Vercel", description: "A conversion-led AI resume product site presenting ATS scoring, rewriting, templates, pricing, and trust signals.", longDescription: "ResumeAI Pro makes a technical product feel immediately useful. I translated ATS scoring, keyword extraction, smart rewriting, templates, social proof, and pricing into a clear marketing flow with product-like interface cues.", image: `${storage}resume-ai.webp`, gallery: [`${storage}resume-ai.webp`, `${storage}resume-ai.webp`, `${storage}resume-ai.webp`], tags: ["React", "SaaS", "Product UX"], liveUrl: "https://ai-resume-maker-51.vercel.app/" },

@@ -7,6 +7,8 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import MotionEffects from "./components/MotionEffects";
+import "./motion.css";
 
 function Router() {
   return (
@@ -26,6 +28,7 @@ export default function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <MotionEffects />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

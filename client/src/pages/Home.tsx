@@ -1,6 +1,7 @@
 /* Design philosophy: reference-grounded neo-editorial terminal minimalism — near-black canvas, acid-lime signals, serif display type, compact mono labels, cinematic whitespace, and restrained motion. */
 import { useEffect, useState } from "react";
 import ProjectDialog from "@/components/ProjectDialog";
+import { AnimatedName } from "@/components/MotionEffects";
 import { Link } from "wouter";
 import { featuredProjects, projects, webflowProjects, Project } from "@/lib/projects";
 import {
@@ -124,7 +125,7 @@ export default function Home() {
             </div>
             <div className="hero-copy reveal reveal-right">
               <p className="hero-eyebrow">INDEPENDENT FULL STACK DEVELOPER</p>
-              <h1>Muhammad <em>Ahmad</em></h1>
+              <AnimatedName />
               <div className="role-line">Thoughtful design. Solid development.</div>
               <p className="hero-lede">I build websites and web apps for people with something to launch. From a distinctive portfolio to a full stack platform, I bring the interface and the systems behind it together.</p>
               <div className="hero-actions">
